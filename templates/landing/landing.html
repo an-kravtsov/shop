@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+    <!--Fonts google-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400" rel="stylesheet">
+    <!-- Custom style -->
+    <link rel="stylesheet" href="{% static 'static_dev/css/landing.css' %}">
+
+
+</head>
+<body>
+    <div class="general-container">
+        <div class="container top-container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h1 class="title">Привет!<br>
+                    Заполните форму ниже</h1>
+
+                    <div>
+                        <form action="" method="post" class="form-horizontal text-center" >{% csrf_token %}
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">Ваше имя:</label>
+                                <div class="col-sm-10">
+                                  <input type="text" class="form-control" name="{{ form.name.name }}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">Ваш Email:</label>
+                                <div class="col-sm-10">
+                                  <input type="email" class="form-control" name="{{ form.email.name }}">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                  <button type="submit" class="btn btn-orange">Отправить</button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+</body>
+</html>
