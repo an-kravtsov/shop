@@ -1,12 +1,25 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+from functools import wraps
+
 
 from django.db import models
 from products.models import Product
 from django.db.models.signals import post_save
 from django.http import Http404
 from django.contrib.auth.models import User
-from utils.main import disable_from_loaddata
+# from utils.main import disable_from_loaddata
+
+def disable_from_loaddata(signal_handler):
+    '''
+    Decorator that turns off signal handlers when loading fixture data.
+    '''
+    @wraps(signal_handler)
+    def wrapper(*args, **kwargs):
+        if kwargs['raw']:
+            return
+        signal_handler(*args, **kwargs)
+    return wrapper
 
 class Status(models.Model):
     name = models.CharField(max_length=24, blank=True, null=True, default=None)
@@ -67,7 +80,7 @@ class ProductInOrder(models.Model):
         self.total_price = price_per_item * int(self.nmb)
 
         super(ProductInOrder, self).save(*args, **kwargs)
-        
+
 @disable_from_loaddata
 def product_in_order_post_save(sender, instance, created, **kwargs):
     order = instance.order
