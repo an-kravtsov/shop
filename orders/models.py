@@ -7,6 +7,7 @@ from django.db.models.signals import post_save
 from django.http import Http404
 from django.contrib.auth.models import User
 from utils.main import disable_from_loaddata
+
 class Status(models.Model):
     name = models.CharField(max_length=24, blank=True, null=True, default=None)
     is_active = models.BooleanField(default=True)
@@ -66,6 +67,7 @@ class ProductInOrder(models.Model):
         self.total_price = price_per_item * int(self.nmb)
 
         super(ProductInOrder, self).save(*args, **kwargs)
+        
 @disable_from_loaddata
 def product_in_order_post_save(sender, instance, created, **kwargs):
     order = instance.order
