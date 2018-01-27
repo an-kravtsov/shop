@@ -1,0 +1,2277 @@
+[
+{
+   "model": "contenttypes.contenttype",
+   "pk": 1,
+   "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 2,
+   "fields": {
+      "app_label": "auth",
+      "model": "permission"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 3,
+   "fields": {
+      "app_label": "auth",
+      "model": "group"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 4,
+   "fields": {
+      "app_label": "auth",
+      "model": "user"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 5,
+   "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 6,
+   "fields": {
+      "app_label": "sessions",
+      "model": "session"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 7,
+   "fields": {
+      "app_label": "landing",
+      "model": "subscribier"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 8,
+   "fields": {
+      "app_label": "orders",
+      "model": "order"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 9,
+   "fields": {
+      "app_label": "orders",
+      "model": "productinorder"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 10,
+   "fields": {
+      "app_label": "orders",
+      "model": "status"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 11,
+   "fields": {
+      "app_label": "products",
+      "model": "product"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 12,
+   "fields": {
+      "app_label": "products",
+      "model": "productimage"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 13,
+   "fields": {
+      "app_label": "products",
+      "model": "productcategory"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 14,
+   "fields": {
+      "app_label": "orders",
+      "model": "productinbasket"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "9gf601s72m7yrpvghv12p1ls73813hy8",
+   "fields": {
+      "session_data": "MzhiYjVmMGQwZjk0NjAyMjFmMTliODgxMTY0OTIxOTEzM2ViOWQ1MTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmMDkyZmZiMWVlMzc3ZTQ4ZGU0N2UwNzA1ZDk1ODUxMzZkMTk3NDhmIn0=",
+      "expire_date": "2018-01-08T17:57:57.367Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "im9rq6nfxr8ly6fdgnkjp5js47d8x6k5",
+   "fields": {
+      "session_data": "MzhiYjVmMGQwZjk0NjAyMjFmMTliODgxMTY0OTIxOTEzM2ViOWQ1MTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmMDkyZmZiMWVlMzc3ZTQ4ZGU0N2UwNzA1ZDk1ODUxMzZkMTk3NDhmIn0=",
+      "expire_date": "2018-01-25T19:37:41.248Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "y434zktmzf25m71kflouphoywkiddzrd",
+   "fields": {
+      "session_data": "MjMxM2YxNTgzNTU0NTljZjRmZTQ4MTJjNDViYTAwZGViYzJlYzI3Mjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI2OGQ3ZjFiNTlkYWIwYjU4ZDNkNDA5YTBlMWY4Mjk1ZWFlZGRiZDExIn0=",
+      "expire_date": "2017-12-25T17:21:43.294Z"
+   }
+},
+{
+   "model": "landing.subscribier",
+   "pk": 1,
+   "fields": {
+      "email": "ma1l_forme@mail.ru",
+      "name": "user2"
+   }
+},
+{
+   "model": "landing.subscribier",
+   "pk": 2,
+   "fields": {
+      "email": "ma1l_forme@mail.ru",
+      "name": "user1"
+   }
+},
+{
+   "model": "landing.subscribier",
+   "pk": 3,
+   "fields": {
+      "email": "ma1l_forme@mai.ru",
+      "name": "user3"
+   }
+},
+{
+   "model": "landing.subscribier",
+   "pk": 4,
+   "fields": {
+      "email": "ma1l_forme@mai.ru",
+      "name": "user5"
+   }
+},
+{
+   "model": "orders.status",
+   "pk": 1,
+   "fields": {
+      "name": "\u041d\u043e\u0432\u044b\u0439",
+      "is_active": true,
+      "created": "2017-12-17T18:18:22.742Z",
+      "updated": "2017-12-17T18:18:22.742Z"
+   }
+},
+{
+   "model": "orders.status",
+   "pk": 2,
+   "fields": {
+      "name": "\u0412 \u0440\u0430\u0431\u043e\u0442\u0435",
+      "is_active": true,
+      "created": "2017-12-17T18:18:29.545Z",
+      "updated": "2017-12-17T18:18:29.545Z"
+   }
+},
+{
+   "model": "orders.status",
+   "pk": 3,
+   "fields": {
+      "name": "\u041e\u0442\u043c\u0435\u043d\u0435\u043d",
+      "is_active": true,
+      "created": "2017-12-17T18:18:36.926Z",
+      "updated": "2017-12-17T18:18:36.926Z"
+   }
+},
+{
+   "model": "orders.status",
+   "pk": 4,
+   "fields": {
+      "name": "\u0412\u044b\u043f\u043e\u043b\u043d\u0435\u043d",
+      "is_active": true,
+      "created": "2017-12-17T18:18:42.890Z",
+      "updated": "2017-12-17T18:18:42.890Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 2,
+   "fields": {
+      "order": 1,
+      "product": 3,
+      "nmb": 1,
+      "price_per_item": "33499.00",
+      "total_price": "33499.00",
+      "is_active": true,
+      "created": "2017-12-17T18:33:12.749Z",
+      "updated": "2017-12-17T18:33:12.749Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 3,
+   "fields": {
+      "order": 2,
+      "product": 3,
+      "nmb": 1,
+      "price_per_item": "33499.00",
+      "total_price": "33499.00",
+      "is_active": true,
+      "created": "2017-12-22T19:55:57.224Z",
+      "updated": "2017-12-22T19:55:57.224Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 4,
+   "fields": {
+      "order": 2,
+      "product": 2,
+      "nmb": 1,
+      "price_per_item": "33799.00",
+      "total_price": "33799.00",
+      "is_active": true,
+      "created": "2017-12-22T20:11:55.922Z",
+      "updated": "2017-12-22T20:11:55.922Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 5,
+   "fields": {
+      "order": 4,
+      "product": 3,
+      "nmb": 2,
+      "price_per_item": "33499.00",
+      "total_price": "66998.00",
+      "is_active": true,
+      "created": "2018-01-11T20:07:28.868Z",
+      "updated": "2018-01-11T20:07:28.868Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 6,
+   "fields": {
+      "order": 4,
+      "product": 4,
+      "nmb": 1,
+      "price_per_item": "35199.00",
+      "total_price": "35199.00",
+      "is_active": true,
+      "created": "2018-01-11T20:07:29.079Z",
+      "updated": "2018-01-11T20:07:29.079Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 7,
+   "fields": {
+      "order": 5,
+      "product": 3,
+      "nmb": 2,
+      "price_per_item": "33499.00",
+      "total_price": "66998.00",
+      "is_active": true,
+      "created": "2018-01-11T20:11:24.931Z",
+      "updated": "2018-01-11T20:11:24.931Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 8,
+   "fields": {
+      "order": 5,
+      "product": 4,
+      "nmb": 2,
+      "price_per_item": "35199.00",
+      "total_price": "70398.00",
+      "is_active": true,
+      "created": "2018-01-11T20:11:25.138Z",
+      "updated": "2018-01-11T20:11:25.138Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 9,
+   "fields": {
+      "order": 7,
+      "product": 3,
+      "nmb": 2,
+      "price_per_item": "33499.00",
+      "total_price": "66998.00",
+      "is_active": true,
+      "created": "2018-01-11T20:30:53.056Z",
+      "updated": "2018-01-11T20:30:53.056Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 10,
+   "fields": {
+      "order": 7,
+      "product": 1,
+      "nmb": 3,
+      "price_per_item": "17999.00",
+      "total_price": "53997.00",
+      "is_active": true,
+      "created": "2018-01-11T20:30:53.270Z",
+      "updated": "2018-01-11T20:30:53.270Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 11,
+   "fields": {
+      "order": 8,
+      "product": 4,
+      "nmb": 5,
+      "price_per_item": "35199.00",
+      "total_price": "175995.00",
+      "is_active": true,
+      "created": "2018-01-11T20:33:40.615Z",
+      "updated": "2018-01-11T20:33:40.615Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 12,
+   "fields": {
+      "order": 9,
+      "product": 4,
+      "nmb": 5,
+      "price_per_item": "35199.00",
+      "total_price": "175995.00",
+      "is_active": true,
+      "created": "2018-01-11T20:33:46.223Z",
+      "updated": "2018-01-11T20:33:46.223Z"
+   }
+},
+{
+   "model": "orders.productinbasket",
+   "pk": 31,
+   "fields": {
+      "session_key": "im9rq6nfxr8ly6fdgnkjp5js47d8x6k5",
+      "order": 7,
+      "product": 3,
+      "nmb": 3,
+      "price_per_item": "33499.00",
+      "total_price": "100497.00",
+      "is_active": true,
+      "created": "2018-01-11T20:27:43.975Z",
+      "updated": "2018-01-11T20:27:43.975Z"
+   }
+},
+{
+   "model": "orders.productinbasket",
+   "pk": 32,
+   "fields": {
+      "session_key": "im9rq6nfxr8ly6fdgnkjp5js47d8x6k5",
+      "order": 7,
+      "product": 1,
+      "nmb": 1,
+      "price_per_item": "17999.00",
+      "total_price": "17999.00",
+      "is_active": true,
+      "created": "2018-01-11T20:27:51.172Z",
+      "updated": "2018-01-11T20:27:51.172Z"
+   }
+},
+{
+   "model": "orders.productinbasket",
+   "pk": 33,
+   "fields": {
+      "session_key": "im9rq6nfxr8ly6fdgnkjp5js47d8x6k5",
+      "order": 9,
+      "product": 4,
+      "nmb": 5,
+      "price_per_item": "35199.00",
+      "total_price": "175995.00",
+      "is_active": true,
+      "created": "2018-01-11T20:32:27.016Z",
+      "updated": "2018-01-11T20:32:27.016Z"
+   }
+},
+{
+   "model": "products.productcategory",
+   "pk": 1,
+   "fields": {
+      "name": "\u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b",
+      "is_active": true
+   }
+},
+{
+   "model": "products.productcategory",
+   "pk": 2,
+   "fields": {
+      "name": "\u043d\u043e\u0443\u0442\u0431\u0443\u043a\u0438",
+      "is_active": true
+   }
+},
+{
+   "model": "products.product",
+   "pk": 1,
+   "fields": {
+      "name": "Apple iPhone 7 256 \u0413\u0411 Black",
+      "price": "17999.00",
+      "discount": 10,
+      "category": 1,
+      "description": "\u0420\u0430\u0434\u0438\u043a\u0430\u043b\u044c\u043d\u043e\u0435 \u043f\u0435\u0440\u0435\u043e\u0441\u043c\u044b\u0441\u043b\u0435\u043d\u0438\u0435 \u2014 \u0432\u043e\u0442 \u0442\u0430\u043a \u0432 \u0434\u0432\u0443\u0445 \u0441\u043b\u043e\u0432\u0430\u0445 \u043c\u043e\u0436\u043d\u043e \u043e\u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0437\u043e\u0432\u0430\u0442\u044c \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b Apple \u043e\u0431\u0440\u0430\u0437\u0446\u0430 2016 \u0433\u043e\u0434\u0430. \u041f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440, \u043e\u0431\u0435 \u043a\u0430\u043c\u0435\u0440\u044b, \u044d\u043a\u0440\u0430\u043d, \u0430\u0443\u0434\u0438\u043e\u0441\u0438\u0441\u0442\u0435\u043c\u0430, \u0434\u0430\u0436\u0435 \u043a\u043d\u043e\u043f\u043a\u0430 \u00ab\u0414\u043e\u043c\u043e\u0439\u00bb \u2014 \u0432\u0441\u0435 \u043f\u0440\u0435\u0442\u0435\u0440\u043f\u0435\u043b\u043e \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f, \u0441 \u044e\u0432\u0435\u043b\u0438\u0440\u043d\u043e\u0439 \u0442\u043e\u0447\u043d\u043e\u0441\u0442\u044c\u044e \u0443\u043c\u0435\u0441\u0442\u0438\u0432\u0448\u0438\u0441\u044c \u0432 \u043d\u043e\u0432\u043e\u043c \u0432\u043e\u0434\u043e\u043d\u0435\u043f\u0440\u043e\u043d\u0438\u0446\u0430\u0435\u043c\u043e\u043c \u043a\u043e\u0440\u043f\u0443\u0441\u0435.",
+      "short_description": "",
+      "is_active": true,
+      "created": "2017-12-17T17:43:24.639Z",
+      "updated": "2017-12-17T17:43:24.639Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 2,
+   "fields": {
+      "name": "Apple iPhone 8 Plus 256 \u0413\u0411",
+      "price": "33799.00",
+      "discount": 0,
+      "category": 1,
+      "description": "\u0421\u0430\u043c\u044b\u0435 \u043b\u0443\u0447\u0448\u0438\u0435 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u0432 \u0441\u0432\u0435\u0436\u0435\u043c \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0438 2017 \u0433\u043e\u0434\u0430. \u0423\u0441\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u0441\u0442\u0432\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u0434\u0438\u0441\u043f\u043b\u0435\u0439, \u0431\u043e\u043b\u0435\u0435 \u043f\u0440\u043e\u0434\u0432\u0438\u043d\u0443\u0442\u0430\u044f \u043a\u0430\u043c\u0435\u0440\u0430, \u0443\u0434\u0432\u043e\u0435\u043d\u043d\u044b\u0439 \u043e\u0431\u044a\u0435\u043c \u043f\u0430\u043c\u044f\u0442\u0438, \u043f\u0440\u0438\u043d\u0446\u0438\u043f\u0438\u0430\u043b\u044c\u043d\u043e \u043d\u043e\u0432\u044b\u0439 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440 \u0441 \u0444\u0443\u043d\u043a\u0446\u0438\u0435\u0439 \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f \u0438 \u0441\u0442\u0438\u043b\u044c\u043d\u043e\u0435 \u043f\u0435\u0440\u0435\u043e\u0441\u043c\u044b\u0441\u043b\u0435\u043d\u0438\u0435 \u0437\u043d\u0430\u043c\u0435\u043d\u0438\u0442\u043e\u0433\u043e \u0434\u0438\u0437\u0430\u0439\u043d\u0430: \u0442\u0435\u043f\u0435\u0440\u044c \u0437\u0430\u0434\u043d\u044f\u044f \u0441\u0442\u043e\u0440\u043e\u043d\u0430 \u0410\u0439\u0444\u043e\u043d\u0430 \u2014 \u0438\u0437 \u043f\u0440\u043e\u0447\u043d\u043e\u0433\u043e \u0441\u0442\u0435\u043a\u043b\u0430, \u043e\u0447\u0435\u043d\u044c \u043f\u0440\u043e\u0447\u043d\u043e\u0433\u043e \u0438 \u043e\u0447\u0435\u043d\u044c \u043a\u0440\u0430\u0441\u0438\u0432\u043e\u0433\u043e.",
+      "short_description": "",
+      "is_active": true,
+      "created": "2017-12-22T18:35:51.593Z",
+      "updated": "2017-12-22T18:35:51.593Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 3,
+   "fields": {
+      "name": "Apple iPhone 8 Plus 256 \u0413\u0411",
+      "price": "33499.00",
+      "discount": 0,
+      "category": 1,
+      "description": "\u0421\u0430\u043c\u044b\u0435 \u043b\u0443\u0447\u0448\u0438\u0435 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u0432 \u0441\u0432\u0435\u0436\u0435\u043c \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0438 2017 \u0433\u043e\u0434\u0430. \u0423\u0441\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u0441\u0442\u0432\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u0434\u0438\u0441\u043f\u043b\u0435\u0439, \u0431\u043e\u043b\u0435\u0435 \u043f\u0440\u043e\u0434\u0432\u0438\u043d\u0443\u0442\u0430\u044f \u043a\u0430\u043c\u0435\u0440\u0430, \u043f\u0440\u0438\u043d\u0446\u0438\u043f\u0438\u0430\u043b\u044c\u043d\u043e \u043d\u043e\u0432\u044b\u0439 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440 \u0441 \u0444\u0443\u043d\u043a\u0446\u0438\u0435\u0439 \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f \u0438 \u0441\u0442\u0438\u043b\u044c\u043d\u043e\u0435 \u043f\u0435\u0440\u0435\u043e\u0441\u043c\u044b\u0441\u043b\u0435\u043d\u0438\u0435 \u0437\u043d\u0430\u043c\u0435\u043d\u0438\u0442\u043e\u0433\u043e \u0434\u0438\u0437\u0430\u0439\u043d\u0430: \u0442\u0435\u043f\u0435\u0440\u044c \u0437\u0430\u0434\u043d\u044f\u044f \u0441\u0442\u043e\u0440\u043e\u043d\u0430 \u0410\u0439\u0444\u043e\u043d\u0430 \u2014 \u0438\u0437 \u043f\u0440\u043e\u0447\u043d\u043e\u0433\u043e \u0441\u0442\u0435\u043a\u043b\u0430, \u043e\u0447\u0435\u043d\u044c \u043f\u0440\u043e\u0447\u043d\u043e\u0433\u043e \u0438 \u043e\u0447\u0435\u043d\u044c \u043a\u0440\u0430\u0441\u0438\u0432\u043e\u0433\u043e.",
+      "short_description": "",
+      "is_active": true,
+      "created": "2017-12-22T18:38:45.443Z",
+      "updated": "2017-12-22T18:38:45.443Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 4,
+   "fields": {
+      "name": "Apple MacBook 12\" Retina 1,1 \u0413\u0413\u0446, 8 \u0413\u0411, 256 \u0413\u0411",
+      "price": "35199.00",
+      "discount": 7,
+      "category": 2,
+      "description": "\u0421\u0435\u043c\u0435\u0439\u0441\u0442\u0432\u043e \u0443\u043b\u044c\u0442\u0440\u0430\u043a\u043e\u043c\u043f\u0430\u043a\u0442\u043d\u044b\u0445 \u043d\u043e\u0443\u0442\u0431\u0443\u043a\u043e\u0432 Apple \u043f\u043e\u043b\u0443\u0447\u0438\u043b\u043e \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435. \u041e\u0431\u0449\u0438\u0439 \u043f\u0440\u0438\u0440\u043e\u0441\u0442 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0438\u043b \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440 Intel \u043d\u043e\u0432\u043e\u0433\u043e \u043f\u043e\u043a\u043e\u043b\u0435\u043d\u0438\u044f m3, \u0430 \u0431\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u043d\u043e\u0432\u043e\u043c\u0443 \u0433\u0440\u0430\u0444\u0438\u0447\u0435\u0441\u043a\u043e\u043c\u0443 \u044f\u0434\u0440\u0443 Intel HD Graphics 515, \u043d\u043e\u0432\u044b\u0439 MacBook \u043c\u043e\u0436\u043d\u043e \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0430\u0442\u044c \u043a \u0432\u043d\u0435\u0448\u043d\u0435\u043c\u0443 \u043c\u043e\u043d\u0438\u0442\u043e\u0440\u0443 \u0441 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0435\u043c 4K. \u041f\u0440\u0438 \u044d\u0442\u043e\u043c \u043d\u043e\u0443\u0442\u0431\u0443\u043a \u043e\u0441\u0442\u0430\u0435\u0442\u0441\u044f \u0442\u0430\u043a\u0438\u043c \u0436\u0435 \u0442\u043e\u043d\u043a\u0438\u043c, \u0431\u0435\u0441\u0448\u0443\u043c\u043d\u044b\u043c \u0438 \u0435\u0449\u0435 \u0431\u043e\u043b\u0435\u0435 \u0430\u0432\u0442\u043e\u043d\u043e\u043c\u043d\u044b\u043c.",
+      "short_description": "",
+      "is_active": true,
+      "created": "2017-12-25T16:19:26.051Z",
+      "updated": "2017-12-25T16:19:26.051Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 1,
+   "fields": {
+      "product": 1,
+      "image": "static/media/products_images/iphone_7_black-image_01_uKDcL9v.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2017-12-17T17:43:56.029Z",
+      "updated": "2017-12-17T17:43:56.029Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 2,
+   "fields": {
+      "product": 1,
+      "image": "static/media/products_images/iphone_7_black-image_02.jpg",
+      "is_main": false,
+      "is_active": true,
+      "created": "2017-12-17T17:47:34.771Z",
+      "updated": "2017-12-17T17:47:34.771Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 3,
+   "fields": {
+      "product": 2,
+      "image": "static/media/products_images/apple-iphone_8_plus-gold-image_01.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2017-12-22T18:35:51.648Z",
+      "updated": "2017-12-22T18:35:51.648Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 4,
+   "fields": {
+      "product": 2,
+      "image": "static/media/products_images/apple-iphone_8_plus-gold-image_02.jpg",
+      "is_main": false,
+      "is_active": true,
+      "created": "2017-12-22T18:35:51.648Z",
+      "updated": "2017-12-22T18:35:51.648Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 5,
+   "fields": {
+      "product": 3,
+      "image": "static/media/products_images/apple-iphone_8_plus-space_gray-image_01.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2017-12-22T18:38:45.448Z",
+      "updated": "2017-12-22T18:38:45.448Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 6,
+   "fields": {
+      "product": 3,
+      "image": "static/media/products_images/apple-iphone_8_plus-space_gray-image_02.jpg",
+      "is_main": false,
+      "is_active": true,
+      "created": "2017-12-22T18:38:45.448Z",
+      "updated": "2017-12-22T18:38:45.448Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 7,
+   "fields": {
+      "product": 4,
+      "image": "static/media/products_images/apple-macbook_2016_silver-image_01.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2017-12-25T16:19:26.080Z",
+      "updated": "2017-12-25T16:19:26.080Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 8,
+   "fields": {
+      "product": 4,
+      "image": "static/media/products_images/apple-macbook_2016_silver-image_03.jpg",
+      "is_main": false,
+      "is_active": true,
+      "created": "2017-12-25T16:19:26.082Z",
+      "updated": "2017-12-25T16:19:26.082Z"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 1,
+   "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 2,
+   "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 3,
+   "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 4,
+   "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 5,
+   "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 6,
+   "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 7,
+   "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 8,
+   "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 9,
+   "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 10,
+   "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 11,
+   "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 12,
+   "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 13,
+   "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 14,
+   "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 15,
+   "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 16,
+   "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 17,
+   "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 18,
+   "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 19,
+   "fields": {
+      "name": "Can add subscribiers",
+      "content_type": 7,
+      "codename": "add_subscribiers"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 20,
+   "fields": {
+      "name": "Can change subscribiers",
+      "content_type": 7,
+      "codename": "change_subscribiers"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 21,
+   "fields": {
+      "name": "Can delete subscribiers",
+      "content_type": 7,
+      "codename": "delete_subscribiers"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 22,
+   "fields": {
+      "name": "Can add subscribier",
+      "content_type": 7,
+      "codename": "add_subscribier"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 23,
+   "fields": {
+      "name": "Can change subscribier",
+      "content_type": 7,
+      "codename": "change_subscribier"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 24,
+   "fields": {
+      "name": "Can delete subscribier",
+      "content_type": 7,
+      "codename": "delete_subscribier"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 25,
+   "fields": {
+      "name": "Can add \u0417\u0430\u043a\u0430\u0437",
+      "content_type": 8,
+      "codename": "add_order"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 26,
+   "fields": {
+      "name": "Can change \u0417\u0430\u043a\u0430\u0437",
+      "content_type": 8,
+      "codename": "change_order"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 27,
+   "fields": {
+      "name": "Can delete \u0417\u0430\u043a\u0430\u0437",
+      "content_type": 8,
+      "codename": "delete_order"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 28,
+   "fields": {
+      "name": "Can add \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 9,
+      "codename": "add_product_in_order"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 29,
+   "fields": {
+      "name": "Can change \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 9,
+      "codename": "change_product_in_order"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 30,
+   "fields": {
+      "name": "Can delete \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 9,
+      "codename": "delete_product_in_order"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 31,
+   "fields": {
+      "name": "Can add \u0421\u0442\u0430\u0442\u0443\u0441 \u0437\u0430\u043a\u0430\u0437\u0430",
+      "content_type": 10,
+      "codename": "add_status"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 32,
+   "fields": {
+      "name": "Can change \u0421\u0442\u0430\u0442\u0443\u0441 \u0437\u0430\u043a\u0430\u0437\u0430",
+      "content_type": 10,
+      "codename": "change_status"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 33,
+   "fields": {
+      "name": "Can delete \u0421\u0442\u0430\u0442\u0443\u0441 \u0437\u0430\u043a\u0430\u0437\u0430",
+      "content_type": 10,
+      "codename": "delete_status"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 34,
+   "fields": {
+      "name": "Can add \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 11,
+      "codename": "add_product"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 35,
+   "fields": {
+      "name": "Can change \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 11,
+      "codename": "change_product"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 36,
+   "fields": {
+      "name": "Can delete \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 11,
+      "codename": "delete_product"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 37,
+   "fields": {
+      "name": "Can add \u0424\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u044f",
+      "content_type": 12,
+      "codename": "add_productimage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 38,
+   "fields": {
+      "name": "Can change \u0424\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u044f",
+      "content_type": 12,
+      "codename": "change_productimage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 39,
+   "fields": {
+      "name": "Can delete \u0424\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u044f",
+      "content_type": 12,
+      "codename": "delete_productimage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 40,
+   "fields": {
+      "name": "Can add \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 9,
+      "codename": "add_productinorder"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 41,
+   "fields": {
+      "name": "Can change \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 9,
+      "codename": "change_productinorder"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 42,
+   "fields": {
+      "name": "Can delete \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 9,
+      "codename": "delete_productinorder"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 43,
+   "fields": {
+      "name": "Can add \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0442\u043e\u0432\u0430\u0440\u0430",
+      "content_type": 13,
+      "codename": "add_productcategory"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 44,
+   "fields": {
+      "name": "Can change \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0442\u043e\u0432\u0430\u0440\u0430",
+      "content_type": 13,
+      "codename": "change_productcategory"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 45,
+   "fields": {
+      "name": "Can delete \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0442\u043e\u0432\u0430\u0440\u0430",
+      "content_type": 13,
+      "codename": "delete_productcategory"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 46,
+   "fields": {
+      "name": "Can add \u0422\u043e\u0432\u0430\u0440 \u0432 \u043a\u043e\u0440\u0437\u0438\u043d\u0435",
+      "content_type": 14,
+      "codename": "add_productinbasket"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 47,
+   "fields": {
+      "name": "Can change \u0422\u043e\u0432\u0430\u0440 \u0432 \u043a\u043e\u0440\u0437\u0438\u043d\u0435",
+      "content_type": 14,
+      "codename": "change_productinbasket"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 48,
+   "fields": {
+      "name": "Can delete \u0422\u043e\u0432\u0430\u0440 \u0432 \u043a\u043e\u0440\u0437\u0438\u043d\u0435",
+      "content_type": 14,
+      "codename": "delete_productinbasket"
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 1,
+   "fields": {
+      "password": "pbkdf2_sha256$36000$L7ck8UmdWOkM$PUZP6cHUhZ5KZkTKp33f2d6nq9ZJD/oFpGhQyexDdE4=",
+      "last_login": "2018-01-11T19:37:41.165Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "ma1l_forme@mail.ru",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2017-12-11T17:20:43.729Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 3,
+   "fields": {
+      "password": "",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "123123",
+      "first_name": "test name",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2018-01-11T19:46:00.172Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 4,
+   "fields": {
+      "password": "",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "213123",
+      "first_name": "test name 3",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2018-01-11T20:33:40.357Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 1,
+   "fields": {
+      "user": null,
+      "total_price": "33799.00",
+      "customer_name": "User6",
+      "customer_email": null,
+      "customer_phone": "7777",
+      "customer_address": null,
+      "comments": "\u0434\u043e\u0441\u0442\u0430\u0432\u0438\u0442\u044c \u0434\u043e\u043c\u043e\u0439",
+      "status": 1,
+      "created": "2017-12-17T18:19:49.230Z",
+      "updated": "2017-12-17T18:19:49.230Z"
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 2,
+   "fields": {
+      "user": null,
+      "total_price": "67298.00",
+      "customer_name": "User6",
+      "customer_email": null,
+      "customer_phone": null,
+      "customer_address": null,
+      "comments": "",
+      "status": 1,
+      "created": "2017-12-22T19:55:57.219Z",
+      "updated": "2017-12-22T19:55:57.219Z"
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 3,
+   "fields": {
+      "user": 3,
+      "total_price": "0.00",
+      "customer_name": "test name",
+      "customer_email": null,
+      "customer_phone": "123123",
+      "customer_address": null,
+      "comments": null,
+      "status": 1,
+      "created": "2018-01-11T19:49:07.125Z",
+      "updated": "2018-01-11T19:49:07.125Z"
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 4,
+   "fields": {
+      "user": 3,
+      "total_price": "102197.00",
+      "customer_name": "test name",
+      "customer_email": null,
+      "customer_phone": "123123",
+      "customer_address": null,
+      "comments": null,
+      "status": 1,
+      "created": "2018-01-11T20:07:28.674Z",
+      "updated": "2018-01-11T20:07:28.674Z"
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 5,
+   "fields": {
+      "user": 3,
+      "total_price": "137396.00",
+      "customer_name": "test name",
+      "customer_email": null,
+      "customer_phone": "123123",
+      "customer_address": null,
+      "comments": null,
+      "status": 1,
+      "created": "2018-01-11T20:11:24.769Z",
+      "updated": "2018-01-11T20:11:24.769Z"
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 6,
+   "fields": {
+      "user": 3,
+      "total_price": "0.00",
+      "customer_name": "test name 2",
+      "customer_email": null,
+      "customer_phone": "123123",
+      "customer_address": null,
+      "comments": null,
+      "status": 1,
+      "created": "2018-01-11T20:28:37.176Z",
+      "updated": "2018-01-11T20:28:37.176Z"
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 7,
+   "fields": {
+      "user": 3,
+      "total_price": "120995.00",
+      "customer_name": "test name 2",
+      "customer_email": null,
+      "customer_phone": "123123",
+      "customer_address": null,
+      "comments": null,
+      "status": 1,
+      "created": "2018-01-11T20:30:52.883Z",
+      "updated": "2018-01-11T20:30:52.883Z"
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 8,
+   "fields": {
+      "user": 4,
+      "total_price": "175995.00",
+      "customer_name": "test name 3",
+      "customer_email": null,
+      "customer_phone": "213123",
+      "customer_address": null,
+      "comments": null,
+      "status": 1,
+      "created": "2018-01-11T20:33:40.482Z",
+      "updated": "2018-01-11T20:33:40.482Z"
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 9,
+   "fields": {
+      "user": 4,
+      "total_price": "175995.00",
+      "customer_name": "test name 3",
+      "customer_email": null,
+      "customer_phone": "213123",
+      "customer_address": null,
+      "comments": null,
+      "status": 1,
+      "created": "2018-01-11T20:33:46.082Z",
+      "updated": "2018-01-11T20:33:46.082Z"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 1,
+   "fields": {
+      "action_time": "2017-12-17T17:43:24.684Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "Apple iPhone 7 256 \u0413\u0411 Black",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 2,
+   "fields": {
+      "action_time": "2017-12-17T17:43:56.034Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 3,
+   "fields": {
+      "action_time": "2017-12-17T17:47:34.771Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 4,
+   "fields": {
+      "action_time": "2017-12-17T18:14:41.457Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "Apple iPhone 7 256 \u0413\u0411 Black",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"1\", \"fields\": [\"image\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 5,
+   "fields": {
+      "action_time": "2017-12-17T18:18:22.742Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "\u0421\u0442\u0430\u0442\u0443\u0441 - \u041d\u043e\u0432\u044b\u0439",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 6,
+   "fields": {
+      "action_time": "2017-12-17T18:18:29.545Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "\u0421\u0442\u0430\u0442\u0443\u0441 - \u0412 \u0440\u0430\u0431\u043e\u0442\u0435",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 7,
+   "fields": {
+      "action_time": "2017-12-17T18:18:36.931Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "\u0421\u0442\u0430\u0442\u0443\u0441 - \u041e\u0442\u043c\u0435\u043d\u0435\u043d",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 8,
+   "fields": {
+      "action_time": "2017-12-17T18:18:42.890Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "\u0421\u0442\u0430\u0442\u0443\u0441 - \u0412\u044b\u043f\u043e\u043b\u043d\u0435\u043d",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 9,
+   "fields": {
+      "action_time": "2017-12-17T18:19:49.230Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 - 1 \u041d\u043e\u0432\u044b\u0439",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 10,
+   "fields": {
+      "action_time": "2017-12-17T18:20:09.372Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Apple iPhone 7 256 \u0413\u0411 Black",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 11,
+   "fields": {
+      "action_time": "2017-12-17T18:29:20.709Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Apple iPhone 7 256 \u0413\u0411 Black",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 12,
+   "fields": {
+      "action_time": "2017-12-17T18:32:36.552Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Apple iPhone 7 256 \u0413\u0411 Black",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 13,
+   "fields": {
+      "action_time": "2017-12-17T18:33:12.750Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Apple iPhone 7 256 \u0413\u0411 Black",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 14,
+   "fields": {
+      "action_time": "2017-12-22T18:35:51.648Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "Apple iPhone 8 Plus",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"3\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"4\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 15,
+   "fields": {
+      "action_time": "2017-12-22T18:38:45.448Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411 (\u0441\u0435\u0440\u044b\u0439 \u043a\u043e\u0441\u043c\u043e\u0441)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"5\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"6\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 16,
+   "fields": {
+      "action_time": "2017-12-22T19:31:28.929Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411 (\u0441\u0435\u0440\u044b\u0439 \u043a\u043e\u0441\u043c\u043e\u0441)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"price\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 17,
+   "fields": {
+      "action_time": "2017-12-22T19:32:52.785Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411 (\u0437\u043e\u043b\u043e\u0442\u043e\u0439)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\", \"price\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 18,
+   "fields": {
+      "action_time": "2017-12-22T19:33:14.273Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "Apple iPhone 7 256 \u0413\u0411 Black",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"price\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 19,
+   "fields": {
+      "action_time": "2017-12-22T19:55:57.224Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 2 \u041d\u043e\u0432\u044b\u0439",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0422\\u043e\\u0432\\u0430\\u0440 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"Apple iPhone 8 Plus 256 \\u0413\\u0411 (\\u0437\\u043e\\u043b\\u043e\\u0442\\u043e\\u0439)\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 20,
+   "fields": {
+      "action_time": "2017-12-22T19:56:08.054Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 1 \u041d\u043e\u0432\u044b\u0439",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0422\\u043e\\u0432\\u0430\\u0440 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"Apple iPhone 8 Plus 256 \\u0413\\u0411 (\\u0437\\u043e\\u043b\\u043e\\u0442\\u043e\\u0439)\", \"fields\": [\"product\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 21,
+   "fields": {
+      "action_time": "2017-12-22T20:02:14.113Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 1 \u041d\u043e\u0432\u044b\u0439",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0422\\u043e\\u0432\\u0430\\u0440 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"Apple iPhone 8 Plus 256 \\u0413\\u0411 (\\u0441\\u0435\\u0440\\u044b\\u0439 \\u043a\\u043e\\u0441\\u043c\\u043e\\u0441)\", \"fields\": [\"product\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 22,
+   "fields": {
+      "action_time": "2017-12-22T20:11:45.557Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 2 \u041d\u043e\u0432\u044b\u0439",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0422\\u043e\\u0432\\u0430\\u0440 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"Apple iPhone 8 Plus 256 \\u0413\\u0411 (\\u0441\\u0435\\u0440\\u044b\\u0439 \\u043a\\u043e\\u0441\\u043c\\u043e\\u0441)\", \"fields\": [\"product\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 23,
+   "fields": {
+      "action_time": "2017-12-22T20:11:55.922Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "\u0417\u0430\u043a\u0430\u0437 2 \u041d\u043e\u0432\u044b\u0439",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0422\\u043e\\u0432\\u0430\\u0440 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"Apple iPhone 8 Plus 256 \\u0413\\u0411 (\\u0437\\u043e\\u043b\\u043e\\u0442\\u043e\\u0439)\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 24,
+   "fields": {
+      "action_time": "2017-12-25T16:19:26.082Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "35199, Apple MacBook 12\" Retina 1,1 \u0413\u0413\u0446, 8 \u0413\u0411, 256 \u0413\u0411 (\u0441\u0435\u0440\u0435\u0431\u0440\u0438\u0441\u0442\u044b\u0439, 201",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"7\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"8\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 25,
+   "fields": {
+      "action_time": "2017-12-25T17:58:49.263Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "35199.00, Apple MacBook 12\" Retina 1,1 \u0413\u0413\u0446, 8 \u0413\u0411, 256 \u0413\u0411 (\u0441\u0435\u0440\u0435\u0431\u0440\u0438\u0441\u0442\u044b\u0439, 201",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}, {\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"7\", \"fields\": [\"is_main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 26,
+   "fields": {
+      "action_time": "2017-12-25T17:58:59.464Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "33499.00, Apple iPhone 8 Plus 256 \u0413\u0411 (\u0441\u0435\u0440\u044b\u0439 \u043a\u043e\u0441\u043c\u043e\u0441)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"5\", \"fields\": [\"is_main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 27,
+   "fields": {
+      "action_time": "2017-12-25T17:59:06.687Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "33799.00, Apple iPhone 8 Plus 256 \u0413\u0411 (\u0437\u043e\u043b\u043e\u0442\u043e\u0439)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"3\", \"fields\": [\"is_main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 28,
+   "fields": {
+      "action_time": "2017-12-25T17:59:14.448Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "17999.00, Apple iPhone 7 256 \u0413\u0411 Black",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"1\", \"fields\": [\"is_main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 29,
+   "fields": {
+      "action_time": "2017-12-25T18:19:35.054Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "35199.00, Apple MacBook 12\" Retina 1,1 \u0413\u0413\u0446, 8 \u0413\u0411, 256 \u0413\u0411",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 30,
+   "fields": {
+      "action_time": "2017-12-25T18:19:45.655Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "33499.00, Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 31,
+   "fields": {
+      "action_time": "2017-12-25T18:19:54.061Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "33799.00, Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 32,
+   "fields": {
+      "action_time": "2018-01-02T16:41:32.703Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "\u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 33,
+   "fields": {
+      "action_time": "2018-01-02T16:41:41.777Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "2",
+      "object_repr": "\u043d\u043e\u0443\u0442\u0431\u0443\u043a\u0438",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 34,
+   "fields": {
+      "action_time": "2018-01-02T16:41:48.171Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "35199.00, Apple MacBook 12\" Retina 1,1 \u0413\u0413\u0446, 8 \u0413\u0411, 256 \u0413\u0411",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 35,
+   "fields": {
+      "action_time": "2018-01-02T16:42:08.790Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "33499.00, Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 36,
+   "fields": {
+      "action_time": "2018-01-02T16:42:19.331Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "33799.00, Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 37,
+   "fields": {
+      "action_time": "2018-01-02T16:42:28.387Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "17999.00, Apple iPhone 7 256 \u0413\u0411 Black",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 38,
+   "fields": {
+      "action_time": "2018-01-02T16:43:11.022Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "17999.00, Apple iPhone 7 256 \u0413\u0411 Black",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"discount\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 39,
+   "fields": {
+      "action_time": "2018-01-02T17:07:43.376Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "35199.00, Apple MacBook 12\" Retina 1,1 \u0413\u0413\u0446, 8 \u0413\u0411, 256 \u0413\u0411",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"discount\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 40,
+   "fields": {
+      "action_time": "2018-01-07T22:41:59.798Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "9",
+      "object_repr": "Apple MacBook 12\" Retina 1,1 \u0413\u0413\u0446, 8 \u0413\u0411, 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 41,
+   "fields": {
+      "action_time": "2018-01-07T22:41:59.869Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "8",
+      "object_repr": "Apple MacBook 12\" Retina 1,1 \u0413\u0413\u0446, 8 \u0413\u0411, 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 42,
+   "fields": {
+      "action_time": "2018-01-07T22:41:59.940Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "7",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 43,
+   "fields": {
+      "action_time": "2018-01-07T22:42:00.002Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "6",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 44,
+   "fields": {
+      "action_time": "2018-01-07T22:42:00.110Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "5",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 45,
+   "fields": {
+      "action_time": "2018-01-07T22:42:00.202Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "4",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 46,
+   "fields": {
+      "action_time": "2018-01-07T22:42:00.257Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "3",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 47,
+   "fields": {
+      "action_time": "2018-01-07T22:42:00.319Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "2",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 48,
+   "fields": {
+      "action_time": "2018-01-07T22:42:00.373Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "1",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 49,
+   "fields": {
+      "action_time": "2018-01-08T15:09:09.951Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "10",
+      "object_repr": "Apple MacBook 12\" Retina 1,1 \u0413\u0413\u0446, 8 \u0413\u0411, 256 \u0413\u0411",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"is_active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 50,
+   "fields": {
+      "action_time": "2018-01-08T15:45:49.219Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "14",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 51,
+   "fields": {
+      "action_time": "2018-01-08T15:45:49.274Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "13",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 52,
+   "fields": {
+      "action_time": "2018-01-08T15:45:49.332Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "12",
+      "object_repr": "Apple iPhone 7 256 \u0413\u0411 Black",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 53,
+   "fields": {
+      "action_time": "2018-01-08T15:45:49.399Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "11",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 54,
+   "fields": {
+      "action_time": "2018-01-08T15:45:49.466Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "10",
+      "object_repr": "Apple MacBook 12\" Retina 1,1 \u0413\u0413\u0446, 8 \u0413\u0411, 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 55,
+   "fields": {
+      "action_time": "2018-01-08T15:46:11.587Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "15",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 56,
+   "fields": {
+      "action_time": "2018-01-08T15:59:58.934Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "20",
+      "object_repr": "Apple MacBook 12\" Retina 1,1 \u0413\u0413\u0446, 8 \u0413\u0411, 256 \u0413\u0411",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"is_active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 57,
+   "fields": {
+      "action_time": "2018-01-08T16:02:54.586Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "17",
+      "object_repr": "Apple iPhone 7 256 \u0413\u0411 Black",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"is_active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 58,
+   "fields": {
+      "action_time": "2018-01-08T16:04:08.781Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "19",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"is_active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 59,
+   "fields": {
+      "action_time": "2018-01-08T16:06:49.602Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "17",
+      "object_repr": "Apple iPhone 7 256 \u0413\u0411 Black",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"is_active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 60,
+   "fields": {
+      "action_time": "2018-01-08T16:14:56.859Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "21",
+      "object_repr": "Apple MacBook 12\" Retina 1,1 \u0413\u0413\u0446, 8 \u0413\u0411, 256 \u0413\u0411",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"is_active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 61,
+   "fields": {
+      "action_time": "2018-01-08T16:22:14.602Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "22",
+      "object_repr": "Apple MacBook 12\" Retina 1,1 \u0413\u0413\u0446, 8 \u0413\u0411, 256 \u0413\u0411",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"is_active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 62,
+   "fields": {
+      "action_time": "2018-01-08T16:23:50.612Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "23",
+      "object_repr": "Apple MacBook 12\" Retina 1,1 \u0413\u0413\u0446, 8 \u0413\u0411, 256 \u0413\u0411",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"is_active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 63,
+   "fields": {
+      "action_time": "2018-01-08T16:24:07.346Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "22",
+      "object_repr": "Apple MacBook 12\" Retina 1,1 \u0413\u0413\u0446, 8 \u0413\u0411, 256 \u0413\u0411",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"is_active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 64,
+   "fields": {
+      "action_time": "2018-01-08T16:24:12.031Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "19",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 2,
+      "change_message": "[]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 65,
+   "fields": {
+      "action_time": "2018-01-08T16:24:15.656Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "19",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"is_active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 66,
+   "fields": {
+      "action_time": "2018-01-08T16:25:53.540Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "17",
+      "object_repr": "Apple iPhone 7 256 \u0413\u0411 Black",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"is_active\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 67,
+   "fields": {
+      "action_time": "2018-01-11T19:38:03.640Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "hj",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 68,
+   "fields": {
+      "action_time": "2018-01-11T20:26:55.757Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "30",
+      "object_repr": "Apple MacBook 12\" Retina 1,1 \u0413\u0413\u0446, 8 \u0413\u0411, 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 69,
+   "fields": {
+      "action_time": "2018-01-11T20:26:55.824Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "29",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 70,
+   "fields": {
+      "action_time": "2018-01-11T20:26:55.883Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "28",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 71,
+   "fields": {
+      "action_time": "2018-01-11T20:26:55.958Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "27",
+      "object_repr": "Apple MacBook 12\" Retina 1,1 \u0413\u0413\u0446, 8 \u0413\u0411, 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 72,
+   "fields": {
+      "action_time": "2018-01-11T20:26:56.041Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "26",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 73,
+   "fields": {
+      "action_time": "2018-01-11T20:26:56.101Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "25",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 74,
+   "fields": {
+      "action_time": "2018-01-11T20:26:56.158Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "24",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 75,
+   "fields": {
+      "action_time": "2018-01-11T20:26:56.224Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "23",
+      "object_repr": "Apple MacBook 12\" Retina 1,1 \u0413\u0413\u0446, 8 \u0413\u0411, 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 76,
+   "fields": {
+      "action_time": "2018-01-11T20:26:56.292Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "22",
+      "object_repr": "Apple MacBook 12\" Retina 1,1 \u0413\u0413\u0446, 8 \u0413\u0411, 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 77,
+   "fields": {
+      "action_time": "2018-01-11T20:26:56.351Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "21",
+      "object_repr": "Apple MacBook 12\" Retina 1,1 \u0413\u0413\u0446, 8 \u0413\u0411, 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 78,
+   "fields": {
+      "action_time": "2018-01-11T20:26:56.417Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "20",
+      "object_repr": "Apple MacBook 12\" Retina 1,1 \u0413\u0413\u0446, 8 \u0413\u0411, 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 79,
+   "fields": {
+      "action_time": "2018-01-11T20:26:56.483Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "19",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 80,
+   "fields": {
+      "action_time": "2018-01-11T20:26:56.550Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "18",
+      "object_repr": "Apple iPhone 8 Plus 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 81,
+   "fields": {
+      "action_time": "2018-01-11T20:26:56.624Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "17",
+      "object_repr": "Apple iPhone 7 256 \u0413\u0411 Black",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 82,
+   "fields": {
+      "action_time": "2018-01-11T20:26:56.684Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "16",
+      "object_repr": "Apple MacBook 12\" Retina 1,1 \u0413\u0413\u0446, 8 \u0413\u0411, 256 \u0413\u0411",
+      "action_flag": 3,
+      "change_message": ""
+   }
+}
+]
