@@ -41,8 +41,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_project/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="127" column="91" lean-forward="false" selection-start-line="127" selection-start-column="91" selection-end-line="127" selection-end-column="91" />
+            <state relative-caret-position="605">
+              <caret line="129" column="12" lean-forward="false" selection-start-line="129" selection-start-column="12" selection-end-line="129" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -714,8 +714,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_project/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="127" column="91" lean-forward="false" selection-start-line="127" selection-start-column="91" selection-end-line="127" selection-end-column="91" />
+        <state relative-caret-position="605">
+          <caret line="129" column="12" lean-forward="false" selection-start-line="129" selection-start-column="12" selection-end-line="129" selection-end-column="12" />
           <folding />
         </state>
       </provider>

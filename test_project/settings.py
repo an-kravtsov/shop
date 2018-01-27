@@ -127,7 +127,7 @@ STATIC_URL = '/static/'
 
 # TEMPLATE_DIRS = (os.path.join(BASE_DIR,  'templates'),) # comment because it was mistakes
 
-# для статики
+# for static
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
