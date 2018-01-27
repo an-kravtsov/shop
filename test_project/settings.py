@@ -9,7 +9,8 @@ https://docs.djangoproject.com/en/1.11/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.11/ref/settings/
 """
-
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -54,7 +55,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'test_project.urls'
 
-t_dirs = os.path.join(BASE_DIR, 'templates') # wtf?
+t_dirs = os.path.join(BASE_DIR, 'templates') # костыль(нет)?
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -125,9 +126,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# TEMPLATE_DIRS = (os.path.join(BASE_DIR,  'templates'),) # comment because it was mistakes
+# TEMPLATE_DIRS = (os.path.join(BASE_DIR,  'templates'),) # закоментировал тк были ошибки
 
-# for static
+# для статики
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
