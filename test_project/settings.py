@@ -137,10 +137,10 @@ STATICFILES_DIRS = [
 
 STATIC_ROOT = os.path.join(BASE_DIR, "static", "static_prod")
 
-# MEDIA_URL = '/media/'
-#
-# MEDIA_ROOT = os.path.join(BASE_DIR, "static", "media")
-# try:
-#     from .settings_prod import *
-# except:
-#     pass
+MEDIA_URL = '/media/'
+
+MEDIA_ROOT = os.path.join(BASE_DIR, "static", "media")
+try:
+    from .settings_prod import *
+except:
+    pass
